@@ -1,4 +1,4 @@
-import { theme as chakraTheme, CustomTheme, ColorHues, VariantColor, DefaultTheme } from '@chakra-ui/core';
+import { theme as chakraTheme, DefaultTheme } from '@chakra-ui/core';
 
 // interface IFonts extends CustomTheme
 interface ICustom {

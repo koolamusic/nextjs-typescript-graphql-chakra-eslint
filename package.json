@@ -40,7 +40,14 @@
     "@graphql-codegen/typescript-resolvers": "^1.15.1",
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.7",
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-react": "^7.20.0",
     "graphql-let": "0.x",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
     "typescript": "^3.8.3"
   }
 }

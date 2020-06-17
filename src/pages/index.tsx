@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useViewerQuery, ViewerDocument } from '../lib/viewer.graphql'
 import { initializeApollo } from '../lib/apollo'
+import { CTA } from '../components/CTA'
 
 const Index = () => {
   const { data } = useViewerQuery()
@@ -13,6 +14,7 @@ const Index = () => {
         <a>about</a>
       </Link>{' '}
       page.
+      <CTA />
     </div>
   )
 }

@@ -8,7 +8,6 @@ export const CTA = () => (
     position="fixed"
     bottom="0"
     width="100%"
-    maxWidth="48rem"
     py={2}
   >
     <ChakraLink href="/about" flexGrow={1} mx={2}>

@@ -18,7 +18,7 @@ import { CTA } from '../components/CTA'
 const Index = () => (
   <Container>
     <Flex justifyContent="center" alignItems="center" height="100vh">
-      <Heading fontSize="10vw">KPI Lens</Heading>
+      <Heading fontSize="4vw">NextJS - Apollo GraphQL - TypeScript - Eslint</Heading>
     </Flex>
     <Main>
       <Text>
@@ -45,9 +45,9 @@ const Index = () => (
         </ListItem>
       </List>
     </Main>
-    <DarkModeSwitch />
 
     <CTA />
+    <DarkModeSwitch />
   </Container>
 )
 

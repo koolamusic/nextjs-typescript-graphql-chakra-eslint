@@ -15,7 +15,7 @@ import { Main } from '../components/Main'
 import { DarkModeSwitch } from '../components/DarkModeSwitch'
 import { CTA } from '../components/CTA'
 
-const Index = () => (
+const Index = (): JSX.Element => (
   <Container>
     <Flex justifyContent="center" alignItems="center" height="100vh">
       <Heading fontSize="4vw">NextJS - Apollo GraphQL - TypeScript - Eslint</Heading>

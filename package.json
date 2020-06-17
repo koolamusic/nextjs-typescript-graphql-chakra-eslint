@@ -1,5 +1,5 @@
 {
-	"name": "with-typescript-graphql",
+	"name": "with-typescript-graphql-chakra-eslint",
 	"version": "0.1.0",
 	"author": "",
 	"license": "ISC",
@@ -20,10 +20,7 @@
 		}
 	},
 	"lint-staged": {
-		"*.@(ts|tsx)": [
-			"yarn lint",
-			"yarn format"
-		]
+		"*.@(ts|tsx)": [ "yarn lint", "yarn format" ]
 	},
 	"dependencies": {
 		"@apollo/react-common": "3.1.4",
